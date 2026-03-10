@@ -1,0 +1,266 @@
+[
+  {
+    "severity": "HIGH",
+    "check": "Unauthenticated Write Access",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "POST accepted without auth token \u2014 object creation possible by anonymous user"
+  },
+  {
+    "severity": "HIGH",
+    "check": "Unauthenticated Write Access",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "POST accepted without auth token \u2014 object creation possible by anonymous user"
+  },
+  {
+    "severity": "HIGH",
+    "check": "Unauthenticated Write Access",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "POST accepted without auth token \u2014 object creation possible by anonymous user"
+  },
+  {
+    "severity": "HIGH",
+    "check": "Unauthenticated Write Access",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "POST accepted without auth token \u2014 object creation possible by anonymous user"
+  },
+  {
+    "severity": "HIGH",
+    "check": "Unauthenticated Write Access",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "POST accepted without auth token \u2014 object creation possible by anonymous user"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "X-Frame-Options: Clickjacking protection missing"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "Strict-Transport-Security: HSTS not enforced \u2014 MITM risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "Content-Security-Policy: No CSP \u2014 XSS risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "X-XSS-Protection: XSS filter header absent"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "X-Frame-Options: Clickjacking protection missing"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "Strict-Transport-Security: HSTS not enforced \u2014 MITM risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "Content-Security-Policy: No CSP \u2014 XSS risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "X-XSS-Protection: XSS filter header absent"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "X-Frame-Options: Clickjacking protection missing"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "Strict-Transport-Security: HSTS not enforced \u2014 MITM risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "Content-Security-Policy: No CSP \u2014 XSS risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "X-XSS-Protection: XSS filter header absent"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "X-Frame-Options: Clickjacking protection missing"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "Strict-Transport-Security: HSTS not enforced \u2014 MITM risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "Content-Security-Policy: No CSP \u2014 XSS risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "X-XSS-Protection: XSS filter header absent"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "X-Frame-Options: Clickjacking protection missing"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "Strict-Transport-Security: HSTS not enforced \u2014 MITM risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "Content-Security-Policy: No CSP \u2014 XSS risk"
+  },
+  {
+    "severity": "MEDIUM",
+    "check": "Missing Security Header",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "X-XSS-Protection: XSS filter header absent"
+  },
+  {
+    "severity": "LOW",
+    "check": "Verbose Method Exposure",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "Allowed methods exposed: GET,HEAD,PUT,PATCH,POST,DELETE"
+  },
+  {
+    "severity": "LOW",
+    "check": "Verbose Method Exposure",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "Allowed methods exposed: GET,HEAD,PUT,PATCH,POST,DELETE"
+  },
+  {
+    "severity": "LOW",
+    "check": "Verbose Method Exposure",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "Allowed methods exposed: GET,HEAD,PUT,PATCH,POST,DELETE"
+  },
+  {
+    "severity": "LOW",
+    "check": "Verbose Method Exposure",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "Allowed methods exposed: GET,HEAD,PUT,PATCH,POST,DELETE"
+  },
+  {
+    "severity": "LOW",
+    "check": "Verbose Method Exposure",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "Allowed methods exposed: GET,HEAD,PUT,PATCH,POST,DELETE"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "OPTIONS took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "DELETE took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "OPTIONS took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "POST took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "DELETE took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "POST took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "DELETE took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "OPTIONS took 1021ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "POST took 1245ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/posts",
+    "detail": "PUT took 1250ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/comments",
+    "detail": "PUT took 1250ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/todos",
+    "detail": "PUT took 1250ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/albums",
+    "detail": "PUT took 1250ms \u2014 possible DoS vector or rate limiting weakness"
+  },
+  {
+    "severity": "INFO",
+    "check": "Slow Response",
+    "endpoint": "https://jsonplaceholder.typicode.com/users",
+    "detail": "PUT took 1264ms \u2014 possible DoS vector or rate limiting weakness"
+  }
+]

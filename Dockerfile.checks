@@ -1,0 +1,18 @@
+FROM python:3.12-slim
+WORKDIR /workspace/checks
+COPY checks/checks.py .
+CMD ["python", "checks.py"]
+```
+
+---
+
+```
+API Security Scanner  |  Go, Python, Rust, Docker  |  2026
+- Built a concurrent API fuzzer in Go using goroutines to probe 
+  25+ endpoint/method combinations with sub-second parallelism
+- Implemented 7 OWASP Top 10 checks in Python (A01, A04, A05) 
+  detecting auth bypass, CORS misconfigs, and header weaknesses
+- Engineered a Rust binary report generator producing severity-graded 
+  HTML reports from structured JSON findings
+- Polyglot architecture: Go engine → Python analysis → Rust reporter, 
+  containerized via Docker

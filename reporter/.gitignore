@@ -1,0 +1,5 @@
+
+checks/venv/
+reporter/target/
+engine/engine.exe
+*.json

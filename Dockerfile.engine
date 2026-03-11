@@ -1,5 +1,0 @@
-FROM golang:1.22-alpine
-WORKDIR /workspace/engine
-COPY engine/ .
-RUN go build -o scanner .
-CMD ["./scanner"]

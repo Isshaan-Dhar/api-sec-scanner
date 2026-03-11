@@ -3,3 +3,4 @@ checks/venv/
 reporter/target/
 engine/engine.exe
 *.json
+report.html

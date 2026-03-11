@@ -1,18 +1,5 @@
-version: '3.8'
-
 services:
-  engine:
+  scanner:
     build:
-      context: ./engine
-      dockerfile: ../Dockerfile.engine
-    volumes:
-      - .:/workspace
-
-  checks:
-    build:
-      context: ./checks
-      dockerfile: ../Dockerfile.checks
-    volumes:
-      - .:/workspace
-    depends_on:
-      - engine
+      context: .
+      dockerfile: Dockerfile
